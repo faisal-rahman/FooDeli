@@ -71,6 +71,7 @@ public class RegisterActivity extends AppCompatActivity {
                 } else if (str_password.length() < 6) {
                     Toast.makeText(RegisterActivity.this, "password too short", Toast.LENGTH_SHORT).show();
                 } else {
+
                     register(str_username,str_fullname, str_email,str_password);
 
                 }
